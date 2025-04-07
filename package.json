@@ -22,7 +22,9 @@
     "mysql2": "^3.14.0",
     "nodemailer": "^6.10.0",
     "sharp": "^0.33.5",
-    "uuid": "^11.1.0"
+    "uuid": "^11.1.0",
+    "validator": "^13.9.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

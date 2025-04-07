@@ -18,8 +18,7 @@ class MailService {
                 user: process.env.MAILER_EMAIL,
                 pass: process.env.MAILER_PASSWORD,
             },
-            logger: process.env.NODE_ENV !== "production",
-            debug: process.env.NODE_ENV !== "production",
+            
         });
     }
     /**
